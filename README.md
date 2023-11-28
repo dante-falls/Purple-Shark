@@ -1,23 +1,49 @@
-# Hello World Of Cyber Security, Welcome to Purple Shark
+<h1>purpleShark - Automatically Extract Network Traffic Data From A PCAP</h1>
 
-# Purple Shark is a Pcap analyzer that automatically parses through your Pcap files and outputs very useful information into various directories. Purple Shark was coded in Kali Linux entirely in BASH with 120 lines of code. A cybersecurity expert might use Purple Shark to automatically capture valuable Netflow data from their Pcap files. Purple Shark uses Tshark to parse through your Pcap files and extract the netflow data.
+ ### YouTube Video To Demonstrate The Script -
+ ### [Purple Shark - A Bash Script For PCAP Analysis - Cybersecurity](https://youtu.be/lnBnNEV4Jtg?si=XWF8AOJOdi72xIYA)
 
-# I am part of the team that created Purple Shark. We are called the Purple Hats and our team consists of Dante Falls, Andrew Sorrells, Jennifer Liu and Mingnon Pender. Thank you for using our product, we enjoyed coding this script for the world to enjoy!
+<h2>Description</h2>
+purpleShark.sh is a Bash Script that automatically extracts useful network traffic data from a PCAP file. PCAP files can be hard to read and analyze, so my team and I automated the process as part of our Graduation Project at Fullstack Academy. The script consists of 120 lines of Bash code and extracts network traffic data from a PCAP file using TShark.
+Click on the YouTube video above to learn more about the script and how to use it. I will also demonstrate the script, below. 
+<br />
 
-# INSTRUCTIONS -
-# 1. Run Purple Shark from the command line with the following command: ./purpleShark.sh
-#      - You may need to run purpleShark.sh with the sudo command since the script needs to          create files.
+<h2>Languages and Utilities Used</h2>
 
-# 2. Purple Shark will pop-up a window greeting you and asking if you want to analyze a pcap      file. You should click "yes" on the pop-up screen.
+- <b>Bash Scripting</b> 
 
-# 3. Purple Shark will then pop-up another window showing your entire file system. Travel        through your file system in the pop-up window and double click the Pcap file you want        to analyze.
+<h2>Environment(s) Used </h2>
 
-# 4. Purple Shark will then tell you to be patient and output a progress bar showing the          current progress in purple. 
+- <b>Linux</b>
 
-# 5. Puple Shark will then tell you it finished the Pcap scan and tell you it outputted the      data it extracted into a directory called "Purple".
+<h2>Program walk-through:</h2>
 
-# 6. Purple Shark will then echo a directory tree of the "Purple" directory onto your            command line.
+<p align="center">
+Run The purpleShark.sh Script From The Linux Terminal: <br/>
+<img src="https://i.imgur.com/v2XZOia.png" height="300%" width="300%" alt="purpleShark Demonstration"/>
+<br />
+<br />
+Select The PCAP File You Want To Analyze: <br/>
+<img src="https://i.imgur.com/j0mJHFM.png" height="300%" width="300%" alt="purpleShark Demonstration"/>
+<br />
+<br />
+purpleShark.sh Will Run And Extract Data Into The "Purple" Directory: <br/>
+<img src="https://i.imgur.com/Zs5KUbI.png" height="300%" width="300%" alt="purpleShark Demonstration"/>
+<img src="https://i.imgur.com/qMWW5df.png" height="300%" width="300%" alt="purpleShark Demonstration"/>
+<br />
+<br />
+Navigate Into The "Purple" Directory And Analyze The Data Inside The Various Directories: <br/>
+<img src="https://i.imgur.com/FQoh1t8.png" height="300%" width="300%" alt="purpleShark Demonstration"/>
+<br />
+<br />
+</p>
 
-# 7. You may now travel the Purple directory freely and view the text files within. 
-
-# 8. Thanks for using Purple Shark!!!
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
