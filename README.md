@@ -10,7 +10,9 @@ Click on the YouTube video above to learn more about the script and how to use i
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Bash Scripting</b> 
+- <b>Bash Scripting</b>
+- <b>Tshark</b>
+- <b>Zenity</b>
 
 <h2>Environment(s) Used </h2>
 
