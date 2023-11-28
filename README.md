@@ -4,7 +4,7 @@
  ### [Purple Shark - A Bash Script For PCAP Analysis - Cybersecurity](https://youtu.be/lnBnNEV4Jtg?si=XWF8AOJOdi72xIYA)
 
 <h2>Description</h2>
-purpleShark.sh is a Bash Script that automatically extracts useful network traffic data from a PCAP file. PCAP files can be hard to read and analyze, so my team and I automated the process as part of our Graduation Project at Fullstack Academy. The script consists of 120 lines of Bash code and extracts network traffic data from a PCAP file using TShark.
+purpleShark.sh is a Bash Script that automatically extracts useful network traffic data from a PCAP file. PCAP files can be hard to read and analyze, so my team and I automated the process as part of our Graduation Project at Fullstack Academy. The script consists of 120 lines of Bash code and extracts network traffic data from a PCAP file using TShark. YOU MUST HAVE TSHARK AND ZENITY INSTALLED IN ORDER TO RUN THIS PROGRAM!!!
 Click on the YouTube video above to learn more about the script and how to use it. I will also demonstrate the script, below. 
 <br />
 
